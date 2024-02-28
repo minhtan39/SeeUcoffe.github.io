@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: sans-serif;
     color: black;
@@ -18,6 +19,7 @@ body {
     margin-bottom: 10px;
     margin-left: 5%;
 }
+
 .intro-ship {
     position: absolute;
     top: 0;
@@ -28,14 +30,14 @@ body {
 .intro-ship img {
     max-width: 60px;
     max-height: 50px;
-    display: inline-block; 
-    vertical-align: middle; 
+    display: inline-block;
+    vertical-align: middle;
     margin-top: 10px;
 }
 
 .phone-number {
     display: inline-block;
-    vertical-align: middle; 
+    vertical-align: middle;
     margin-left: 10px;
     margin-top: 20px;
     display: inline-block;
@@ -47,9 +49,11 @@ body {
     margin-top: 10px;
     border-radius: 54px;
 }
+
 .intro p {
     margin-bottom: 20px;
 }
+
 .menu {
     background-color: darkgray;
     padding: 5px;
@@ -68,9 +72,10 @@ body {
     font-size: 30px;
 }
 
-.menu-order{
+.menu-order {
     margin-left: 30%;
 }
+
 .menu li {
     display: inline-block;
     margin-right: 20px;
@@ -82,12 +87,14 @@ body {
     color: #222;
     font-weight: bold;
     padding: 10px;
-    display: block; 
+    display: block;
 }
+
 .menu ul li a:hover {
     background-color: #f1f1f1;
     color: #222;
 }
+
 .menu .sub-menu {
     display: none;
     position: absolute;
@@ -100,50 +107,13 @@ body {
 .menu li:hover .sub-menu {
     display: block;
 }
-.drink-section {
-    padding: 20px;
-}
-.drinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-items:auto;
-}
 
-.drink {
-    border: 0px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-left:5px;
-    padding: 10px;
-}
-
-.drink img {
-    width: 300x;
-    height:300px;
-    object-fit: contain;
-    border-radius: 15px;
-    display:block;
-    margin-left: 50px;
-
-}
-.drink-1{
-    margin-left: 15px;
-}
-.drink-2{
-    margin-left: 35px;
-}
-.drink-3{
-    margin-left: 30px;
-}
-.drink-4{
-    margin-left: 35px;
-}
 footer {
     background-color: #f8f9fa;
     padding: 10px;
     position: relative;
 }
+
 .footer-social h2 {
     color: #333;
     font-size: 18px;
@@ -164,48 +134,18 @@ footer {
     width: 30px;
     height: 30px;
 }
-.translation{
-background-color: #f8f9fa;
-color: black;
-padding: 20px;
-margin-bottom: 2px;
-display:block;
-padding-right: 300px;
-margin-left: 900px;
+
+.translation {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 20px;
+    margin-bottom: 2px;
+    display: block;
+    padding-right: 300px;
+    margin-left: 900px;
 }
 
-.translation p{
-display: flex;
-padding: 20px;
-}
-@media screen and (max-width: 768px) {
-    .intro-ship {
-        position: static;
-        margin-top: 0;
-        margin-right: 5%;
-    }
-
-    .phone-number {
-        margin-top: 10px;
-        margin-left: 5%;
-    }
-
-    .menu-order {
-        margin-left: 5%;
-    }
-
-    .menu li {
-        display: block;
-        margin: 0;
-        padding: 10px;
-    }
-
-    .menu ul h2 {
-        margin-left: 0;
-    }
-
-    .translation {
-        padding-right: 0;
-        margin-left: 0;
-    }
+.translation p {
+    display: flex;
+    padding: 20px;
 }

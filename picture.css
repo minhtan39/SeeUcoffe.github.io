@@ -171,3 +171,76 @@ footer {
   color: #666;
   font-size: 14px;
 }
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    margin-left: 0;
+  }
+
+  .intro-ship {
+    position: static;
+    margin-top: 0;
+  }
+
+  .phone-number {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .menu ul h2 {
+    margin-left: 0;
+  }
+
+  .menu-order {
+    margin-left: 0;
+  }
+
+  .menu li {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .menu ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+  }
+
+  .menu .sub-menu {
+    position: static;
+    display: block;
+    background-color: initial;
+    padding: 0;
+  }
+
+  .album {
+    padding-bottom: 10px;
+  }
+
+  .photo-group {
+    margin-top: 10px;
+  }
+
+  .photo {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .note {
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .footer-social {
+    margin-bottom: 5px;
+  }
+
+  .footer-info p {
+    font-size: 12px;
+  }
+}
